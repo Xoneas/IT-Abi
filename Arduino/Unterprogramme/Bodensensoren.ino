@@ -1,15 +1,15 @@
-//Variablen
-int sensorLinks = 6;
-int sensorRechts = 7;
+int SensorLinks = 6;
+int SensorRechts = 7;
 
-void bodenInit() {
-  //AD-Wandler einschwingen lassen
-  pinMode(SensorLinks, OUTPUT);
-  pinMode(SensorRechts, OUTPUT);
+void BodenInit() {
+  analogRead(SensorLinks);
+  analogRead(SensorRechts);
 }
-int getBodenwertLinks(){
-  return analogRead(sensorLinks);
+ 
+int GetBodenwertLinks () {
+  return analogRead(SensorLinks);
 }
-int getBodenwertRechts(){
-  return analogRead(sensorRechts);
+
+int GetBodenwertRechts () {
+  return analogRead(SensorRechts);
 }
