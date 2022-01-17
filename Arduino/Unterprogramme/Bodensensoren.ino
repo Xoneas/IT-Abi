@@ -4,8 +4,8 @@ int sensorRechts = 7;
 
 void bodenInit() {
   //AD-Wandler einschwingen lassen
-  analogRead(sensorLinks);
-  analogRead(sensorRechts);
+  pinMode(SensorLinks, OUTPUT);
+  pinMode(SensorRechts, OUTPUT);
 }
 int getBodenwertLinks(){
   return analogRead(sensorLinks);
