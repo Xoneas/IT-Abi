@@ -3,8 +3,8 @@
 int echoLinks = A2;
 int triggerLinks = 6;
 // rechte Seite
-int echoLinks = 4;
-int triggerLinks = 8;
+int echoRechts = 4;
+int triggerRechts = 8;
 
 // Taster
 int taster = 2;
